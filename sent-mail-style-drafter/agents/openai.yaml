@@ -1,0 +1,12 @@
+interface:
+  display_name: Sent Mail Style Drafter
+  short_description: Draft Gmail messages using the user's sent-mail style.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
