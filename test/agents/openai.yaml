@@ -1,0 +1,14 @@
+interface:
+  display_name: paper summarizer
+  short_description: 사용자가 논문 파일, 링크, DOI, 제목, 초록 또는 본문을 제공하거나 특정 주제의 논문을 찾아 달라고 요청하면,
+    논문의 연구 배경, 목적, 기존 연구의 한계, 방법론, 실험 조건, 주요 결과, 핵심 기여, 한계점, 결론을 체계적으로 요약하는 스킬입니다.
+    여러 논문을 요청한 경우에는 공통점과 차이점까지 비교합니다.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
